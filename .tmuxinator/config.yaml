@@ -1,0 +1,11 @@
+name: config
+root: ~/
+attach: false
+
+windows:
+  - nixos-configuration:
+      root: ~/.config/nixos-config
+      panes:
+        - nvim
+  - shell:
+      root: ~/
