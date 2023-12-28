@@ -3,7 +3,7 @@ root: ~/
 attach: false
 
 windows:
-  - nixos-configuration:
+  - nixos-config:
       root: ~/.config/nixos-config
       panes:
         - nvim
