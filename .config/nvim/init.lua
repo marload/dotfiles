@@ -24,7 +24,7 @@ vim.o.splitright = true
 vim.o.clipboard = "unnamedplus"
 vim.wo.relativenumber = true
 vim.opt.termguicolors = true
-
+vim.opt.fillchars:append { eob = " " }
 
 vim.keymap.set("n", "<leader>w", "<ESC>w<CR>")
 vim.keymap.set("n", "<leader>qq", "<ESC>qa<CR>")

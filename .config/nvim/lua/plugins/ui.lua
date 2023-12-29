@@ -60,8 +60,15 @@ return {
 		'petertriho/nvim-scrollbar',
 	},
 	{
-		'stevearc/dressing.nvim',
-		opts = {},
+		"stevearc/dressing.nvim",
+		lazy = true,
+		opts = {
+			input = {
+				win_options = {
+					winhighlight = 'FloatBorder:DiagnosticError'
+				}
+			}
+		}
 	},
 	{
 		'christoomey/vim-tmux-navigator'
