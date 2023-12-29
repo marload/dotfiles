@@ -37,5 +37,8 @@ return {
 		keys = {
 			{ "<leader>fp", "<Cmd>Telescope projects<CR>", desc = "Projects" },
 		},
+	},
+	{
+		"camgraff/telescope-tmux.nvim"
 	}
 }
