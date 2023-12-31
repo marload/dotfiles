@@ -18,3 +18,9 @@ escape_keyevent = hs.eventtap.new(
 	end
 )
 escape_keyevent:start()
+
+local FRemap = require('foundation_remapping')
+local remapper = FRemap.new()
+remapper:remap('rcmd', 'f13')
+remapper:register()
+
