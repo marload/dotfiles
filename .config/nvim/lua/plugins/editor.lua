@@ -15,7 +15,7 @@ return {
 				filtered_items = {
 					visible = true,
 					hide_by_name = {
-						'.git',
+						'.git/',
 						'.DS_Store',
 						'thumbs.db',
 						'.idea',
