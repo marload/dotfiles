@@ -4,7 +4,7 @@ return {
 		version = "*",
 		config = true,
 		keys = {
-			{ "<leader>`", "<cmd>ToggleTerm<cr>" },
+			{ "<leader>t", "<cmd>ToggleTerm<cr>" },
 		},
 	},
 }

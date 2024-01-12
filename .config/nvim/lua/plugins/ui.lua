@@ -11,6 +11,20 @@ return {
 		}
 	},
 	{
+		'romgrk/barbar.nvim',
+		dependencies = {
+			'lewis6991/gitsigns.nvim',
+			'nvim-tree/nvim-web-devicons',
+		},
+		init = function()
+			vim.g.barbar_auto_setup = false
+		end,
+		opts = {
+			-- animation = true,
+			-- insert_at_start = true,
+		},
+	},
+	{
 		"lukas-reineke/indent-blankline.nvim",
 		main = "ibl",
 		opts = {
@@ -24,13 +38,13 @@ return {
 					"help",
 					"alpha",
 					"dashboard",
-					"neo-tree",
 					"Trouble",
 					"lazy",
 					"mason",
 					"notify",
 					"toggleterm",
 					"lazyterm",
+					"nvim-tree",
 				},
 			},
 		},

@@ -1,27 +1,23 @@
 return {
 	{
-		"nvim-neo-tree/neo-tree.nvim",
+		"nvim-tree/nvim-tree.lua",
 		keys = {
-			{ "<leader>e", "<cmd>Neotree toggle<cr>" },
+			{ "<leader>e", "<cmd>NvimTreeToggle<cr>" },
 		},
-		branch = "v3.x",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
-			"MunifTanjim/nui.nvim",
-		},
-		opts = {
-			filesystem = {
-				filtered_items = {
-					visible = true,
-					hide_by_name = {
-						'.git/',
-						'.DS_Store',
-						'thumbs.db',
-						'.idea',
+		opts = {},
+		config = function()
+			require("nvim-tree").setup {
+				filters = {
+					custom = {
+						'.git'
 					}
-				},
-			},
+				}
+			}
+			vim.g.loaded_netrw = 1
+			vim.g.loaded_netrwPlugin = 1
+		end,
+		dependencies = {
+			"nvim-tree/nvim-web-devicons",
 		},
 	},
 	{
@@ -59,14 +55,6 @@ return {
 		keys = {
 			{ "s", mode = { "n", "x", "o" }, function() require("flash").jump() end,       desc = "Flash" },
 			{ "S", mode = { "n", "o", "x" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
-			{ "r", mode = "o",               function() require("flash").remote() end,     desc = "Remote Flash" },
-			{
-				"R",
-				mode = { "o", "x" },
-				function() require("flash").treesitter_search() end,
-				desc =
-				"Treesitter Search"
-			},
 			{
 				"<c-s>",
 				mode = { "c" },
