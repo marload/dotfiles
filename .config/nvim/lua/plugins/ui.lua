@@ -5,6 +5,9 @@ return {
 		dependencies = "nvim-tree/nvim-web-devicons",
 		opts = {
 			globalstatus = true,
+			options = {
+				theme = "nord"
+			}
 		}
 	},
 	{

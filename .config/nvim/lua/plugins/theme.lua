@@ -1,10 +1,9 @@
 return {
-	{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
+	{ "shaunsingh/nord.nvim" },
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "gruvbox",
+			colorscheme = "nord",
 		},
-	}
+	},
 }
-

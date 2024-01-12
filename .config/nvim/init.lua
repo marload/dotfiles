@@ -26,6 +26,9 @@ vim.wo.relativenumber = true
 vim.opt.termguicolors = true
 vim.opt.fillchars:append { eob = " " }
 
+-- nord theme options
+vim.g.nord_disable_background = true
+
 vim.keymap.set("n", "<leader>w", "<ESC>w<CR>")
 vim.keymap.set("n", "<leader>qq", "<ESC>qa<CR>")
 require("lazy").setup("plugins")
