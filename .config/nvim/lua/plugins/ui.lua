@@ -11,18 +11,17 @@ return {
 		}
 	},
 	{
-		'romgrk/barbar.nvim',
-		dependencies = {
-			'lewis6991/gitsigns.nvim',
-			'nvim-tree/nvim-web-devicons',
-		},
-		init = function()
-			vim.g.barbar_auto_setup = false
-		end,
-		opts = {
-			-- animation = true,
-			-- insert_at_start = true,
-		},
+		'akinsho/bufferline.nvim',
+		version = "*",
+		dependencies = 'nvim-tree/nvim-web-devicons',
+		config = function()
+			require("bufferline").setup({
+				options = {
+					separator_style = "thin",
+				},
+				highlights = require("nord.plugins.bufferline").akinsho(),
+			})
+		end
 	},
 	{
 		"lukas-reineke/indent-blankline.nvim",
