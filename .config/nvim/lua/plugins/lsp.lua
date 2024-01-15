@@ -165,13 +165,18 @@ return {
 
 			require("mason-lspconfig").setup({
 				ensure_installed = {
+					"html",
 					"lua_ls",
 					"yamlls",
 					"pyright",
 					"gopls",
 					"terraformls",
 					"clojure_lsp",
-					"elixirls"
+					"elixirls",
+
+					-- JS LSP
+					"tsserver",
+					"eslint"
 				},
 				automatic_installation = true,
 			})
