@@ -33,9 +33,9 @@ vim.keymap.set("n", "<leader>qq", "<ESC>qa<CR>")
 -- Terminal 모드에서 'jk'를 Escape 키로 사용
 vim.api.nvim_set_keymap('t', 'jk', '<C-\\><C-n>', { noremap = true, silent = true })
 
-
 require("lazy").setup("plugins", {
 	install = {
 		colorscheme = { "nord" },
 	},
 })
+
