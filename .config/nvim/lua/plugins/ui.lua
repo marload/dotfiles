@@ -76,9 +76,27 @@ return {
 		"echasnovski/mini.indentscope",
 		opts = {
 			symbol = "│",
-			draw = { delay = 0 },
 			options = { try_as_border = true },
 		},
+		init = function()
+			vim.api.nvim_create_autocmd("FileType", {
+				pattern = {
+					"help",
+					"alpha",
+					"dashboard",
+					"Trouble",
+					"lazy",
+					"mason",
+					"notify",
+					"toggleterm",
+					"lazyterm",
+					"neo-tree",
+				},
+				callback = function()
+					vim.b.miniindentscope_disable = true
+				end,
+			})
+		end,
 	},
 	{
 		"folke/noice.nvim",
@@ -108,9 +126,6 @@ return {
 				}
 			}
 		}
-	},
-	{
-		'christoomey/vim-tmux-navigator'
 	},
 	{
 		"utilyre/barbecue.nvim",

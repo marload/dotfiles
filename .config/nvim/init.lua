@@ -27,15 +27,18 @@ vim.opt.fillchars:append { eob = " " }
 vim.opt.cursorline = true -- 현재 커서 라인의 색상을 강조함
 vim.wo.relativenumber = true
 
+
 vim.keymap.set("n", "<leader>w", "<ESC>w<CR>")
 vim.keymap.set("n", "<leader>qq", "<ESC>qa<CR>")
-
--- Terminal 모드에서 'jk'를 Escape 키로 사용
 vim.api.nvim_set_keymap('t', 'jk', '<C-\\><C-n>', { noremap = true, silent = true })
 
+
+
 require("lazy").setup("plugins", {
+	diff = {
+		cmd = "diffview.nvim",
+	},
 	install = {
 		colorscheme = { "nord" },
 	},
 })
-
