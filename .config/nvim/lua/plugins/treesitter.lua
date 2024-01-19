@@ -1,7 +1,9 @@
 return {
 	{
 		"nvim-treesitter/nvim-treesitter",
-		event = { "VeryLazy" },
+		build = ":TSUpdate",
+		event = { "BufReadPost", "BufNewFile" },
+		cmd = { "TSUpdateSync" },
 		dependencies = {
 			"nvim-treesitter/nvim-treesitter-context",
 			"nvim-treesitter/nvim-treesitter-textobjects",
@@ -14,10 +16,6 @@ return {
 				highlight = {
 					enable = true,
 					additional_vim_regex_highlighting = { "org" },
-				},
-				playground = {
-					enable = true,
-					persist_queries = true,
 				},
 				auto_install = true,
 				incremental_selection = { enable = true },
@@ -45,7 +43,7 @@ return {
 						},
 						selection_modes = {
 							["@parameter.outer"] = "v", -- charwise
-							["@function.outer"] = "V",  -- linewise
+							["@function.outer"] = "V", -- linewise
 							["@class.outer"] = "<c-v>", -- blockwise
 						},
 					},
