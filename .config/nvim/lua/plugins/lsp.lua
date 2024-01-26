@@ -1,7 +1,6 @@
 return {
 	{
 		"neovim/nvim-lspconfig",
-		lazy = true,
 		dependencies = {
 			"hrsh7th/nvim-cmp",
 			"folke/lsp-colors.nvim",
@@ -287,16 +286,5 @@ return {
 		opts = {
 			autocmd = { enabled = true },
 		},
-	},
-	{
-		'nvimdev/lspsaga.nvim',
-		event = "LspAttach",
-		config = function()
-			require('lspsaga').setup({})
-		end,
-		dependencies = {
-			'nvim-treesitter/nvim-treesitter',
-			'nvim-tree/nvim-web-devicons',
-		}
 	}
 }

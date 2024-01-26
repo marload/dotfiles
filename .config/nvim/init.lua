@@ -39,6 +39,6 @@ require("lazy").setup("plugins", {
 		cmd = "diffview.nvim",
 	},
 	install = {
-		colorscheme = { "nord" },
+		colorscheme = { "tokyonight" },
 	},
 })

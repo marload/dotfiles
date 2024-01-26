@@ -2,7 +2,6 @@ return {
 	{
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
-		event = { "BufReadPost", "BufNewFile" },
 		cmd = { "TSUpdateSync" },
 		dependencies = {
 			"nvim-treesitter/nvim-treesitter-context",
@@ -14,8 +13,7 @@ return {
 				ensure_installed = "all",
 				sync_install = false,
 				highlight = {
-					enable = true,
-					additional_vim_regex_highlighting = { "org" },
+					enable = ture,
 				},
 				auto_install = true,
 				incremental_selection = { enable = true },

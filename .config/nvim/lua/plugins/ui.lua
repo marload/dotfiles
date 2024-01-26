@@ -6,7 +6,7 @@ return {
 		opts = {
 			globalstatus = true,
 			options = {
-				theme = "nord",
+				theme = "tokyonight",
 				component_separators = '|',
 				section_separators = { left = '', right = '' },
 			},
@@ -43,7 +43,6 @@ return {
 				options = {
 					separator_style = "thin",
 				},
-				highlights = require("nord.plugins.bufferline").akinsho(),
 			})
 		end
 	},
