@@ -1,17 +1,20 @@
 # dotfiles
 
-```
-cd ~
-git clone https://github.com/marload/dotfiles ~/dotfiles
+**Install pre-requirements**
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+git clone https://github.com/marload/dotfiles ~/
+brew install stow make
 ```
 
+**Set dotfiles**
 ```
-cd ~
-ln -s ~/dotfiles/.hammerspoon
-ln -s ./dotfiles/.tmuxinator
+cd ~/dotfiles
+make
+```
 
-cd ~/.config
-ln -s ~/dotfiles/.config/nvim
-
-cd ~
+**Install applications**
+```bash
+brew update
+xargs brew install < ~/dotfiles/brew.requirements.txt
 ```
