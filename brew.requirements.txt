@@ -1,0 +1,9 @@
+visual-studio-code
+tmux
+wget
+gcc
+karabiner-elements
+1password
+1password-cli
+starship
+fish
