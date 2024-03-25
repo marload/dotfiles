@@ -1,4 +1,11 @@
-if status is-interactive
+status --is-login; and begin
+    # Login shell initialisation
+end
+
+
+status --is-interactive; and begin
+
+
     fish_vi_key_bindings
 
     alias sofish "source ~/.config/fish/config.fish"
