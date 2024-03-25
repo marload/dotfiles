@@ -18,3 +18,8 @@ make
 brew update
 xargs brew install < ~/dotfiles/brew.requirements.txt
 ```
+
+**Change to fish**
+```
+sh ~/chsh_to_fish.sh
+```
