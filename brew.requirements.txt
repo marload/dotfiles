@@ -33,3 +33,5 @@ k9s
 openlens
 wezterm
 tfenv
+aws/tap/eks-node-viewer
+saml2aws
