@@ -21,5 +21,5 @@ xargs brew install < ~/dotfiles/brew.requirements.txt
 
 **Change to fish**
 ```
-sh ~/chsh_to_fish.sh
+sudo sh ~/chsh_to_fish.sh
 ```
