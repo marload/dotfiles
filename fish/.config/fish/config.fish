@@ -19,15 +19,15 @@ if status is-interactive
     abbr gl "git pull"
     abbr gco "git checkout"
 
-    addr v "nvim"
-    addr vi "nvim"
-    addr vim "nvim"
+    abbr v "nvim"
+    abbr vi "nvim"
+    abbr vim "nvim"
 
-    addr tf "terraform"
-    addr k "kubectl"
-    addr ktx "kubectx"
-    addr kns "kubens"
-    addr clr "clear"
+    abbr tf "terraform"
+    abbr k "kubectl"
+    abbr ktx "kubectx"
+    abbr kns "kubens"
+    abbr clr "clear"
 
     if type -q starship 
         starship init fish | source
