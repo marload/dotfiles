@@ -9,7 +9,7 @@ status --is-interactive; and begin
     fish_vi_key_bindings
 
     alias sofish "source ~/.config/fish/config.fish"
-    
+
     function gitroot
         if git rev-parse --git-dir > /dev/null 2>&1
             cd (git rev-parse --show-toplevel)
@@ -31,7 +31,7 @@ status --is-interactive; and begin
     abbr gac "git commit -av"
     abbr gp "git push"
     abbr gf "git fetch --prune --all"
-    abbr gl "git pull"
+    abbr gpl "git pull"
     abbr gco "git checkout"
 
     abbr v "nvim"
