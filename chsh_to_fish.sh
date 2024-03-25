@@ -7,3 +7,5 @@ if [ -n "$fish_path" ]; then
 else
   echo "Could not found fish shell"
 fi
+
+chsh -s $fish_path
