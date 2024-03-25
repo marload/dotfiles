@@ -9,7 +9,15 @@ status --is-interactive; and begin
     fish_vi_key_bindings
 
     alias sofish "source ~/.config/fish/config.fish"
-    abbr gitroot "cd $(git rev-parse --show-toplevel)"
+    
+    function gitroot
+        if git rev-parse --git-dir > /dev/null 2>&1
+            cd (git rev-parse --show-toplevel)
+        else
+            echo "Current directory is not a Git repository."
+        end
+    end
+
 
     set -x EDITOR nvim
 
