@@ -2,7 +2,7 @@ if status is-interactive
     fish_vi_key_bindings
 
     alias sofish "source ~/.config/fish/config.fish"
-    alias gitroot "cd $(git rev-parse --show-toplevel)"
+    abbr gitroot "cd $(git rev-parse --show-toplevel)"
 
     set -x EDITOR nvim
 
