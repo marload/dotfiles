@@ -1,5 +1,5 @@
 status --is-login; and begin
-    # Login shell initialisation
+    set -gx PATH /opt/homebrew/bin $PATH
 end
 
 
