@@ -3,7 +3,7 @@
 **Install pre-requirements**
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-git clone https://github.com/marload/dotfiles ~/
+git clone https://github.com/marload/dotfiles ~/dotfiles
 brew install stow make
 ```
 

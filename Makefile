@@ -1,4 +1,4 @@
-.PHONY apps
+.PHONY: apps
 
 all: apps
 
