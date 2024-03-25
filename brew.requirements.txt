@@ -16,7 +16,6 @@ via
 arc
 direnv
 postgresql@15
-terraform
 kubectx
 kubernetes-cli
 awscli
