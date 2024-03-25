@@ -1,0 +1,16 @@
+[user]
+	email = "marload.kim@gmail.com"
+name = "marload"
+
+[push]
+autoSetupRemote = true
+
+[init]
+defaultBranch = main
+
+[branch]
+sort = "-committerdate"
+
+[remote.origin]
+fetch = "+refs/pull/*:refs/remotes/origin/pull/*"
+
