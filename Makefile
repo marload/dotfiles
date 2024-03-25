@@ -6,6 +6,6 @@ apps:
 	@stow fish
 	@stow git
 	@stow hammerspoon
-	@neovim
-	@starship
-	@tmuxinator
+	@stow neovim
+	@stow starship
+	@stow tmuxinator
