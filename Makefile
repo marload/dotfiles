@@ -9,3 +9,4 @@ apps:
 	@stow neovim
 	@stow starship
 	@stow tmuxinator
+	@stow wezterm
