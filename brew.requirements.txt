@@ -19,7 +19,7 @@ postgresql@15
 terraform
 kubectx
 kubernetes-cli
-awscli2
+awscli
 helm@3
 gh
 jq
