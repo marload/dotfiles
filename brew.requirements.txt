@@ -38,3 +38,5 @@ hashicorp/tap/vault
 thefuck
 atuin
 homebrew/cask-fonts/font-caskaydia-mono-nerd-font
+xplr
+tmuxinator
