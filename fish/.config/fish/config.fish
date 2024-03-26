@@ -4,8 +4,6 @@ end
 
 
 status --is-interactive; and begin
-
-
     fish_vi_key_bindings
 
     alias sofish "source ~/.config/fish/config.fish"
@@ -18,10 +16,7 @@ status --is-interactive; and begin
         end
     end
 
-
     set -x EDITOR nvim
-
-    alias sofish "source ~/.config/fish/config.fish"
 
     abbr gst "git status"
     abbr gsw "git switch"
