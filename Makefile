@@ -11,3 +11,4 @@ apps:
 	@stow tmuxinator
 	@stow wezterm
 	@stow tmux
+	@stow k9s
