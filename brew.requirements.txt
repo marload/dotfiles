@@ -42,3 +42,5 @@ xplr
 tmuxinator
 dbeaver-community
 hammerspoon
+tunnelblick
+
