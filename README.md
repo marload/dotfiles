@@ -22,12 +22,17 @@ xargs brew install < ~/dotfiles/brew.requirements.txt
 **Change to fish**
 ```
 sudo sh ~/dotfiles/chsh_to_fish.sh
-sudo chsh $(which fish)
+sudo chsh -s $(which fish)
 ```
 
 **Install TPM***
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+**Hold key**
+```
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 ```
 
 
