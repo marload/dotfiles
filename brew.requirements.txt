@@ -40,3 +40,5 @@ atuin
 homebrew/cask-fonts/font-caskaydia-mono-nerd-font
 xplr
 tmuxinator
+dbeaver-community
+
