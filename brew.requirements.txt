@@ -43,4 +43,4 @@ tmuxinator
 dbeaver-community
 hammerspoon
 tunnelblick
-
+lsd
