@@ -45,3 +45,4 @@ hammerspoon
 tunnelblick
 lsd
 croc
+fzf
