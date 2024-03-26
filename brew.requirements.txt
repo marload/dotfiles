@@ -44,3 +44,4 @@ dbeaver-community
 hammerspoon
 tunnelblick
 lsd
+croc
