@@ -12,3 +12,4 @@ apps:
 	@stow wezterm
 	@stow tmux
 	@stow k9s
+	@stow karabiner
