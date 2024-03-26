@@ -21,10 +21,13 @@ xargs brew install < ~/dotfiles/brew.requirements.txt
 
 **Change to fish**
 ```
-sudo sh ~/chsh_to_fish.sh
+sudo sh ~/dotfiles/chsh_to_fish.sh
+sudo chsh $(which fish)
 ```
 
 **Install TPM***
 ```
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
+

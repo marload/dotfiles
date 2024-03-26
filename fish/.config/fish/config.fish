@@ -7,6 +7,7 @@ status --is-interactive; and begin
     fish_vi_key_bindings
 
     alias sofish "source ~/.config/fish/config.fish"
+    alias brewing "xargs brew install < ~/dotfiles/brew.requirements.txt"
 
     function gitroot
         if git rev-parse --git-dir > /dev/null 2>&1
