@@ -10,3 +10,4 @@ apps:
 	@stow starship
 	@stow tmuxinator
 	@stow wezterm
+	@stow tmux
