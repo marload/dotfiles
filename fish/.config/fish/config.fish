@@ -50,6 +50,9 @@ status --is-interactive; and begin
     if type -q zoxide
         zoxide init fish | source
     end
+    if type -q atuin
+        atuin init fish | source
+    end
     if type -q lsd
         alias ls "lsd"
         alias ll "lsd -l"
