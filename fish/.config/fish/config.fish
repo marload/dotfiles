@@ -1,5 +1,6 @@
 status --is-login; and begin
     set -gx PATH /opt/homebrew/bin $PATH
+    set -gx NVM $HOME/.nvm
 end
 
 
