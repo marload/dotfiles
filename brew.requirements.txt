@@ -50,3 +50,4 @@ gitbutler
 go
 pyenv
 nvm
+tldr
