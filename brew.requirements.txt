@@ -48,3 +48,5 @@ croc
 fzf
 gitbutler
 go
+pyenv
+nvm
