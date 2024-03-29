@@ -22,6 +22,7 @@ status --is-interactive; and begin
 
     set -x EDITOR nvim
     set -x XDG_CONFIG_HOME $HOME/.config
+    set -gx PATH $PATH $HOME/.krew/bin
     
     abbr gst "git status"
     abbr gsw "git switch"
