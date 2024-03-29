@@ -54,3 +54,4 @@ tldr
 step
 libpq
 fisher
+krew
