@@ -8,7 +8,7 @@ status --is-interactive; and begin
 
     alias sofish "source ~/.config/fish/config.fish"
     alias brewing "xargs brew install < ~/dotfiles/brew.requirements.txt"
-    alias fising "fisher install < ~/dotfiles/fisher.requirements.txt"
+    alias fishing "fisher install < ~/dotfiles/fisher.requirements.txt"
 
     function gitroot
         if git rev-parse --git-dir > /dev/null 2>&1
