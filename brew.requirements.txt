@@ -56,3 +56,4 @@ libpq
 fisher
 opa
 argocd
+zoom
