@@ -57,3 +57,4 @@ fisher
 opa
 argocd
 zoom
+aicommits
