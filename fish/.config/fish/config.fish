@@ -18,6 +18,8 @@ status --is-interactive; and begin
         end
     end
 
+    fish_add_path /opt/homebrew/opt/libpq/bin
+
     set -x EDITOR nvim
     set -x XDG_CONFIG_HOME $HOME/.config
 
