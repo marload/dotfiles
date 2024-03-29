@@ -58,3 +58,4 @@ opa
 argocd
 zoom
 aicommits
+kubeseal
