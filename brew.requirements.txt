@@ -52,3 +52,4 @@ pyenv
 nvm
 tldr
 step
+libpq
