@@ -23,6 +23,7 @@ xargs brew install < ~/dotfiles/brew.requirements.txt
 ```
 sudo sh ~/dotfiles/chsh_to_fish.sh
 sudo chsh -s $(which fish)
+fisher install < ~/dotfiles/fisher.requirements.txt
 ```
 
 **Install TPM***

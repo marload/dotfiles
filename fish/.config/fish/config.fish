@@ -1,6 +1,5 @@
 status --is-login; and begin
     set -gx PATH /opt/homebrew/bin $PATH
-    set -gx NVM $HOME/.nvm
 end
 
 
@@ -9,6 +8,7 @@ status --is-interactive; and begin
 
     alias sofish "source ~/.config/fish/config.fish"
     alias brewing "xargs brew install < ~/dotfiles/brew.requirements.txt"
+    alias fising "fisher install < ~/dotfiles/fisher.requirements.txt"
 
     function gitroot
         if git rev-parse --git-dir > /dev/null 2>&1
@@ -22,7 +22,7 @@ status --is-interactive; and begin
 
     set -x EDITOR nvim
     set -x XDG_CONFIG_HOME $HOME/.config
-
+    
     abbr gst "git status"
     abbr gsw "git switch"
     abbr gd "git diff"
