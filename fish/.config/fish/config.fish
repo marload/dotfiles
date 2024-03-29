@@ -3,7 +3,6 @@ status --is-login; and begin
     set -gx PATH $PATH $HOME/.krew/bin
 end
 
-
 status --is-interactive; and begin
     fish_vi_key_bindings
 
