@@ -59,4 +59,4 @@ argocd
 zoom
 aicommits
 kubeseal
-infisical
+infisical/get-cli/infisical
