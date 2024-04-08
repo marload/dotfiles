@@ -61,3 +61,4 @@ aicommits
 kubeseal
 infisical/get-cli/infisical
 discord
+telnet
