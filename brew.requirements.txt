@@ -63,3 +63,5 @@ infisical/get-cli/infisical
 discord
 telnet
 google-chrome
+slack
+mas
