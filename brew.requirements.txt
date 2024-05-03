@@ -67,3 +67,4 @@ slack
 mas
 adobe-acrobat-reader
 go
+tableplus
