@@ -1,6 +1,7 @@
 status --is-login; and begin
     set -gx PATH /opt/homebrew/bin $PATH
     set -gx PATH $PATH $HOME/.krew/bin
+    fzf --fish | source
 end
 
 status --is-interactive; and begin
