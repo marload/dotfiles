@@ -69,3 +69,4 @@ adobe-acrobat-reader
 go
 tableplus
 yamlfmt
+click
