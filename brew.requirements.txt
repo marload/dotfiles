@@ -70,3 +70,4 @@ go
 tableplus
 yamlfmt
 click
+aws-vpn-client
