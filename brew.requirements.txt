@@ -59,13 +59,11 @@ argocd
 zoom
 aicommits
 kubeseal
-infisical/get-cli/infisical
 discord
 telnet
 google-chrome
 slack
 mas
-adobe-acrobat-reader
 go
 tableplus
 yamlfmt
