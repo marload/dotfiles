@@ -70,3 +70,4 @@ yamlfmt
 click
 aws-vpn-client
 jsonnet
+cue-lang/tap/cue
