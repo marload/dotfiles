@@ -71,3 +71,4 @@ tableplus
 yamlfmt
 click
 aws-vpn-client
+jsonnet
