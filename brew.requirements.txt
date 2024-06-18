@@ -72,3 +72,5 @@ aws-vpn-client
 jsonnet
 cue-lang/tap/cue
 istioctl
+kubeshark
+
