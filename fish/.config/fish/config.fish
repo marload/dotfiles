@@ -44,6 +44,7 @@ status --is-interactive; and begin
     abbr ktx "kubectx"
     abbr kns "kubens"
     abbr clr "clear"
+    abbr tlp "telepresence"
 
     if type -q starship 
         starship init fish | source
