@@ -74,3 +74,4 @@ cue-lang/tap/cue
 istioctl
 kubeshark
 cilium-cli
+prettier
