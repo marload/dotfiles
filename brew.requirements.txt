@@ -75,3 +75,4 @@ istioctl
 kubeshark
 cilium-cli
 prettier
+zed
