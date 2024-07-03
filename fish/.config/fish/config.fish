@@ -20,10 +20,11 @@ status --is-interactive; and begin
     end
 
     fish_add_path /opt/homebrew/opt/libpq/bin
+    fish_add_path /opt/homebrew/opt/openjdk/bin
 
     set -x EDITOR nvim
     set -x XDG_CONFIG_HOME $HOME/.config
-    
+
     abbr gst "git status"
     abbr gsw "git switch"
     abbr gd "git diff"
@@ -46,7 +47,7 @@ status --is-interactive; and begin
     abbr clr "clear"
     abbr tlp "telepresence"
 
-    if type -q starship 
+    if type -q starship
         starship init fish | source
     end
     if type -q zoxide

@@ -12,7 +12,6 @@ orbstack
 insomnia
 raycast
 remnote
-via
 arc
 direnv
 postgresql@15
@@ -23,7 +22,6 @@ helm@3
 gh
 jq
 yq
-bat
 ripgrep
 neovim
 zoxide
@@ -76,3 +74,4 @@ kubeshark
 cilium-cli
 prettier
 zed
+openjdk
