@@ -64,14 +64,3 @@ slack
 mas
 go
 tableplus
-yamlfmt
-click
-aws-vpn-client
-jsonnet
-cue-lang/tap/cue
-istioctl
-kubeshark
-cilium-cli
-prettier
-zed
-openjdk

@@ -8,7 +8,7 @@ status --is-interactive; and begin
     fish_vi_key_bindings
 
     alias sofish "source ~/.config/fish/config.fish"
-    alias brewing "xargs brew install < ~/dotfiles/brew.requirements.txt"
+    alias brewing "xargs brew install < ~/dotfiles/brew.requirements-1.txt && xargs brew install --cask < ~/dotfiles/brew.requirements-2.txt"
     alias fishing "fisher install < ~/dotfiles/fisher.requirements.txt"
 
     function gitroot
