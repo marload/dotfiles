@@ -9,3 +9,5 @@ cilium-cli
 prettier
 zed
 openjdk
+intellij-idea
+datagrip
