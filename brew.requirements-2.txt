@@ -10,5 +10,4 @@ prettier
 zed
 openjdk
 intellij-idea
-datagrip
 heynote
